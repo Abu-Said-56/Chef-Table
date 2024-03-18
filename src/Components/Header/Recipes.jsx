@@ -1,0 +1,133 @@
+const Recipes = () => {
+    return (
+        
+    <div>
+        <div className="text-center my-5">
+        <h3 className="text-4xl font-bold pb-3">Our Recipes</h3>
+        <p>Healthy Harvest: Nourishing Recipes for Wellness</p>
+        </div>
+        {/* Our recipes 3 card container div */}
+        <div className="flex justify-evenly px-2 mx-0">
+
+        {/* First two card or food pic card*/}
+        <div className="flex gap-5 mx-3">
+        {/* first one */}
+        <div>
+        <div className="card w-96 bg-base-100 border-2 border-gray-300">
+            <figure className="px-10 pt-10">
+            <img src="src/assets/images/noodles_image.jpeg"className="rounded-xl" />
+            </figure>
+            <div className="card-body ">
+            <h2 className="font-bold">Spaghetti Bolognese</h2>
+            <p>Classic Italian pasta dish with savory meat sauce.</p>
+            <h4 className="font-bold">Ingredients: 6</h4>
+            <ul>
+                <li>500g ground beef</li>
+                <li>1 onion, chopped</li>
+                <li>2 cloves garlic, minced</li>
+            </ul>
+            <div className="flex gap-4">
+                <div className="flex gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>
+                <p>30 minutes</p>
+                </div>
+                <div className="flex gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z" />
+                </svg>
+                <p>600 calories</p>
+                </div>
+            </div>
+            <div className="card-actions">
+                <button className="btn bg-[#0BE58A] rounded-full px-5">Want to Coke</button>
+            </div>
+            </div>
+            </div>
+        </div>
+        {/* Second card */}
+        <div>
+        <div className="card w-96 bg-base-100 border-2 border-gray-300">
+            <figure className="px-10 pt-10">
+            <img src="src/assets/images/salad_image.png"className="rounded-xl" />
+            </figure>
+            <div className="card-body ">
+            <h2 className="font-bold">Chicken Caesar Salad</h2>
+            <p>Classic Italian pasta dish with savory meat sauce.</p>
+            <h4 className="font-bold">Ingredients: 6</h4>
+            <ul>
+                <li>500g ground beef</li>
+                <li>1 onion, chopped</li>
+                <li>2 cloves garlic, minced</li>
+            </ul>
+            <div className="flex gap-4">
+                <div className="flex gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>
+                <p>30 minutes</p>
+                </div>
+                <div className="flex gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z" />
+                </svg>
+                <p>600 calories</p>
+                </div>
+            </div>
+            <div className="card-actions">
+                <button className="btn bg-[#0BE58A] rounded-full px-5">Want to Coke</button>
+            </div>
+            </div>
+            </div>
+        </div>
+        </div>
+        {/* want to cook part div*/}
+        <div className="border-2 border-cyan-100 w-auto px-7">
+            <h3 className="text-center py-3 font-bold">Want to Coke</h3>
+            <div className="flex justify-between py-4">
+                <p>Name</p>
+                <p>Time</p>
+                <p>Calorie</p>
+            </div>
+            <div className="flex justify-between py-3 gap-4">
+                <p>Chicken Caesar Salad</p>
+                <p>20 minuts</p>
+                <p>400 Caloies</p>
+                <div>
+                    <button className=" bg-[#0BE58A] py-1 px-4 rounded-full">Preparing</button>
+                </div>
+            </div>
+            {/*  */}
+            <div>
+                <h3 className="text-center py-3 font-bold">Currently cooking: 02</h3>
+                <div className="flex justify-between">
+                    <p>Name</p>
+                    <p>Time</p>
+                    <p>Calories</p>
+                </div>
+                <div className="flex justify-between">
+                    <p>Spaghetti Bolognese</p>
+                    <p>30 minuts</p>
+                    <p>600 calories</p>
+                </div>
+                
+                <div className="flex justify-between">
+                    <p>Spaghetti Bolognese</p>
+                    <p>30 minuts</p>
+                    <p>600 calories</p>
+                </div>
+                
+            </div>
+        </div>
+
+        </div>
+        
+    </div>
+    
+    );
+};
+
+export default Recipes;
