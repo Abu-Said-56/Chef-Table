@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import DisplayFood from "./DisplayFood";
 import WantT0Cook from "./WantT0Cook";
 
-const Food = ({handleWanttoCook,wanttoCook,handlePreparing,Preparing}) => {
+const Food = ({handleWanttoCook,wanttoCook,handlePreparing,Preparing,totalTime,totalCalorie}) => {
 
     const [recipe, setRecipe] = useState([])
 
@@ -21,7 +21,7 @@ const Food = ({handleWanttoCook,wanttoCook,handlePreparing,Preparing}) => {
             <div className="flex flex-col lg:flex-row">
                 {/* left side */}
                 <div className="lg:w-[65%]">
-                    <div className="grid grid-cols-2 gap-5">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
                         {
                             recipe.map((blog, idx) => <DisplayFood 
                             key={idx} 
@@ -34,6 +34,8 @@ const Food = ({handleWanttoCook,wanttoCook,handlePreparing,Preparing}) => {
                 {/* right side */}
                 <div className="lg:w-[35%]">
                     <WantT0Cook 
+                    totalCalorie={totalCalorie}
+                    totalTime={totalTime}
                     Preparing={Preparing}
                     handlePreparing={handlePreparing} 
                     wanttoCook={wanttoCook}></WantT0Cook>

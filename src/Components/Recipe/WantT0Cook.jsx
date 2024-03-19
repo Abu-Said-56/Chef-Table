@@ -3,7 +3,7 @@ import ShowWantToCook from "./ShowWantToCook";
 import CurrentCooking from "./CurrentCooking";
 
 
-const WantT0Cook = ({wanttoCook,handlePreparing,Preparing}) => {
+const WantT0Cook = ({wanttoCook,handlePreparing,Preparing,totalTime,totalCalorie}) => {
     // console.log('cook ', wanttoCook)
 
     
@@ -54,6 +54,16 @@ const WantT0Cook = ({wanttoCook,handlePreparing,Preparing}) => {
                     <p>600 Calories</p>
                 </div> */}
                 
+            </div>
+
+
+            <div className="my-10 text-center mx-auto text-xl font-bold">
+                <div className="flex gap-5 mb-7 ">
+                    <h1>Total Time = </h1> <h1> {totalTime} minutes</h1>
+                </div>
+                <div className="flex gap-5">
+                    <h1>Total Calories </h1> <h1>{totalCalorie} calories</h1>
+                </div>
             </div>
         </div>
             

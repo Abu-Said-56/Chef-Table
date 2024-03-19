@@ -7,7 +7,7 @@ const ShowWantToCook = ({cook,handlePreparing}) => {
             <p>{cook.preparing_time} min</p>
             <p>{cook.calories} Calories</p>
 
-            <button onClick={()=>handlePreparing(cook,cook.recipe_id)} className="btn bg-[#0BE58A] py-1 px-4 rounded-full">Preparing</button>
+            <button onClick={()=>handlePreparing(cook,cook.recipe_id,cook.preparing_time,cook.calories)} className="btn bg-[#0BE58A] py-1 px-4 rounded-full">Preparing</button>
 
         </div>
     );

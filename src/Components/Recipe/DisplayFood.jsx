@@ -6,7 +6,7 @@ const DisplayFood = ({recipe,handleWanttoCook}) => {
 
     return (
         <div>
-        <div className="card w-96 bg-base-100 border-2 border-gray-300">
+        <div className="card w-full lg:w-96 bg-base-100 border-2 border-gray-300">
             <figure className="px-10 pt-10">
             <img src={recipe_image} className="rounded-xl" />
             </figure>
