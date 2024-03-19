@@ -1,8 +1,8 @@
 const Banner = () => {
     return (
-        <div className="h-[550px] mt-10">
+        <div className="container mx-auto h-[550px] mt-10">
 
-        <div className="hero h-full" style={{backgroundImage: 'url(src/assets/images/banner_image.jpeg)'}}>
+        <div className="h-full hero rounded-lg" style={{backgroundImage: 'url(src/assets/images/banner_image.jpeg)'}}>
         <div className="hero-overlay bg-opacity-20 "></div>
         <div className="hero-content text-center text-neutral-content">
             <div className="w-[90%] lg:w-[80%] space-y-5">

@@ -1,0 +1,91 @@
+[
+    {
+        "recipe_id": 1,
+        "recipe_name": "Chicken Parmesan",
+        "short_description": "Classic Italian dish with breaded chicken, marinara sauce, and melted cheese",
+        "ingredient_sinanarray": [
+            "4 boneless, skinless chicken breasts",
+            "1 cup breadcrumbs",
+            "1 cup grated Parmesan cheese",
+            "2 cups marinara sauce",
+            "1 cup shredded mozzarella cheese"
+        ],
+        "preparing_time": 45,
+        "calories": 420,
+        "recipe_image": "https://i.ibb.co/2kPsWgv/food-img-1.jpg"
+    },
+    {
+        "recipe_id": 2,
+        "recipe_name": "Vegetable Stir-Fry",
+        "short_description": "Healthy stir-fried vegetables in a savory sauce",
+        "ingredient_sinanarray": [
+            "2 cups broccoli florets",
+            "1 cup sliced bell peppers",
+            "1 cup sliced carrots",
+            "1/4 cup soy sauce"
+        ],
+        "preparing_time": 20,
+        "calories": 180,
+        "recipe_image": "https://i.ibb.co/Kbz0QcR/food-img-2.jpg"
+    },
+    {
+        "recipe_id": 3,
+        "recipe_name": "Spaghetti Carbonara",
+        "short_description": "Classic Italian pasta dish with creamy egg and cheese sauce",
+        "ingredient_sinanarray": [
+            "400 g spaghetti",
+            "150 g pancetta or bacon",
+            "3 eggs",
+            "1 cup grated Parmesan cheese",
+            "2 cloves garlic"
+        ],
+        "preparing_time": 25,
+        "calories": 380,
+        "recipe_image": "https://i.ibb.co/TMRDHcJ/food-img-3.jpg"
+    },
+    {
+        "recipe_id": 4,
+        "recipe_name": "Grilled Vegetable Salad",
+        "short_description": "Healthy salad with grilled vegetables and balsamic vinaigrette",
+        "ingredient_sinanarray": [
+            "2 zucchinis",
+            "2 bell peppers",
+            "1 eggplant",
+            "1 red onion",
+            "1/4 cup balsamic vinegar"
+        ],
+        "preparing_time": 30,
+        "calories": 200,
+        "recipe_image": "https://i.ibb.co/yfnXdN5/food-img-4.jpg"
+    },
+    {
+        "recipe_id": 5,
+        "recipe_name": "Banana Oat Pancakes",
+        "short_description": "Healthy and delicious pancakes made with bananas and oats",
+        "ingredient_sinanarray": [
+            "2 ripe bananas",
+            "1 cup rolled oats",
+            "2 eggs",
+            "1/2 tsp cinnamon",
+            "1/4 tsp vanilla extract"
+        ],
+        "preparing_time": 15,
+        "calories": 250,
+        "recipe_image": "https://i.ibb.co/dLS4pzC/food-img-5.webp"
+    },
+    {
+        "recipe_id": 6,
+        "recipe_name": "Tofu Stir-Fry",
+        "short_description": "Vegetarian stir-fry with tofu, vegetables, and a flavorful sauce",
+        "ingredient_sinanarray": [
+            "400 g firm tofu",
+            "2 cups mixed vegetables (such as bell peppers, broccoli, carrots)",
+            "1/4 cup soy sauce",
+            "2 tbsp sesame oil",
+            "2 cloves garlic, minced"
+        ],
+        "preparing_time": 35,
+        "calories": 300,
+        "recipe_image": "https://i.ibb.co/cT4pqHh/food-social-media-template-841014-17070.jpg"
+    }
+]
